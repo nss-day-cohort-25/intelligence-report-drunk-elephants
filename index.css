@@ -1,0 +1,30 @@
+body{
+    background-image: url(jail.jpg);
+    background-size: cover;
+}
+#hitMe{
+    text-align: center;
+    color:wheat;
+    background-image: url(jail.jpg);
+    }
+ul {
+    list-style-type: none;
+}
+.DM {
+    font-weight: bolder;
+   }
+.total{
+ display:inline-block;
+ float: left;
+}
+.aka{
+    font-size:20px;
+}
+
+#ratHole{
+    padding-right: 10px;
+    background-color: red;
+}
+#thePirate{
+color:wheat;
+}
