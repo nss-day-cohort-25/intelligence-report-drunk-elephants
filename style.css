@@ -1,0 +1,196 @@
+/* Font for whole page */
+body { 
+  font-family: 'NaziTypewriterRegular', 'Courier New', Courier, monospace;
+  font-weight: normal; 
+  font-style: normal; 
+  background-color: #FAEBD7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper targeting header element, text, and images */
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FAEBD7;
+  padding: 0;
+  font-size: 1em;
+  position: fixed;
+}
+
+.header {
+  background-color: #FAEBD7;
+  height: 200px;
+  padding: 10px;
+  padding-left: 2em;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+  line-height:30px;
+}
+
+.header h2 {
+  font-variant: small-caps;
+  text-align: left;
+  color: black;
+}
+
+/* Put images in header and auto size */
+img {
+  float: right;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20%;
+  padding: 0 5px 0 5px;
+  margin: auto;
+  }
+
+/* Navigation bar */
+nav {
+  width: 100%;
+  background: rgb(36, 36, 36);
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30 0 30;
+  transition: .5x;
+}
+
+a:link, a:visited {
+  display: block;
+  padding: 15px 60px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+a:hover, a:active {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+
+/* Responsive bar for when viewing on mobile and smaller screens */
+.responsive-bar {
+  width: 100%;
+  background: rgb(36, 36, 36);
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.responsive-bar h4 {
+  margin: 0;
+  padding: 3px 0;
+  background-color: rgb(36, 36, 36);
+  float: left;
+}
+
+.responsive-bar h4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.responsive-bar h4 {
+  font-size: 20px;
+  letter-spacing: 15px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  float: none;
+  background: rgb(36, 36, 36);
+  color: White;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Padding the main body away from banner/header */
+.mainBody {
+  padding: 18em 1em;
+  align-content: center;
+}
+
+
+
+/* MEDIA QUERIES - These override specific CSS properties above*/
+@media (max-width: 900px) {
+
+/* When screen shrinks, Navbar hides */
+  nav {
+    display: none;
+    padding: 0;
+  }
+
+  /* When screen shrinks, responsive bar replaces Navbar when viewed on smaller screen */
+  .responsive-bar {
+    display: block;
+    position: fixed;
+    float: center
+  }
+  nav h1 {
+    display: block;
+    float: none;
+  }
+  nav ul {
+    float: none;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    background: rgb(36, 36, 36);
+    color: white;
+    padding: 0;
+    border-bottom: 1px solid #FAEBD7;
+  }
+  h1.brand {
+    display: none;
+  }
+  h4.menu {
+    float: none;
+    padding: 0;
+  }
+
+
+/* The Following are all hidden to de-clutter page */
+/* Images Disappear when viewed on mobile devices */
+  img {
+    display: none;
+  }
+/* Header disappears when viewed on mobile devices */
+  .header {
+    display: none;
+  }
+/* Keep main content center on smaller screens */
+  .mainBody {
+    padding: 3em 1em 1em 1em;
+  }
+/* Center text on smaller screens */
+  .mainBody h1 {
+    margin: 0;
+    text-align: center;
+    border: 2px solid black;
+  }
+  /* Put border around sub-headings to separate from content on smaller screens */
+  .mainBody h2 {
+    border: 1px dashed black;
+  }
+}
