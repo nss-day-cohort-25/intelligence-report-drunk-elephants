@@ -1,0 +1,99 @@
+body {
+    font-family: 'NaziTypewriterRegular';
+    font-weight: normal;
+    font-style: normal;
+    background-color:     #FAEBD7;
+    width: 100%;
+   }
+   
+  
+
+   .ribbon {
+    position: fixed;
+    top: 0px;
+    right: 2.5em;
+    width: 20%;
+    height: auto;
+    border: 3px solid black;
+ }
+   /* Style the banner */
+   .banner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+   }
+   
+   .bannerBackground {
+    background-color:     #FAEBD7;
+   }
+   
+   .mainBody {
+    padding: 10em;
+   }
+   /* Style the navbar */
+   #navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    /* Navbar links */
+    #navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    
+    /* Page content */
+    .content {
+      padding: 16px;
+    }
+    
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+      /* position: fixed; */
+      top: 0;
+      width: 100%
+    }
+    
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+      padding-top: 60px;
+    }
+
+  /* The video is fixed to the bottom right at all times */
+.video {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    border: 3px solid black;
+    border-bottom: 5px solid black;
+    box-shadow:         inset 0px -20px 20px #000000;
+}
+
+
+/*  title */
+.title {
+    padding-top: 10em;
+    text-align: center;
+}
+/* main paragraph content */
+.headParagraph {
+    padding-top: 2em;
+    padding-left: 15em;
+    padding-right: 15em;
+    word-wrap: text-wrap;
+}
+/* main written content */
+.mainContent {
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    word-wrap: text-wrap;
+}
+
