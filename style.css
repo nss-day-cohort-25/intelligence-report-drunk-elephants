@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   background-color: #FAEBD7;
   padding: 0;
-  font-size: 1em;
+  font-size: .8em;
   position: fixed;
 }
 
@@ -29,7 +29,7 @@ body {
   text-transform: uppercase;
   text-align: left;
   color: black;
-  line-height:30px;
+  line-height: 30px;
 }
 
 .header h2 {
@@ -44,7 +44,7 @@ img {
   max-width: 100%;
   max-height: 100%;
   border-radius: 20%;
-  padding: 0 5px 0 5px;
+  padding: 0 2px 0 2px;
   margin: auto;
   }
 
@@ -55,7 +55,7 @@ nav {
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 nav ul {
@@ -68,7 +68,7 @@ nav ul {
 nav ul li {
   list-style: none;
   display: inline-block;
-  padding: 0 30 0 30;
+  padding: 0 20 0 20;
   transition: .5x;
 }
 
