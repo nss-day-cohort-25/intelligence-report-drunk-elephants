@@ -1,0 +1,65 @@
+#topPage{
+    text-align: center;
+    color:wheat;
+    font-size: 20px;
+    
+    }
+    .topTarget{
+        list-style-type: none;
+        color: yellow;
+    }
+.targetMe1{
+font-size: 50px;
+
+}
+.targetMe2{
+    font-size: 40px;
+}
+.targetMe3{
+    font-size:30px; }
+.targetMe4{
+    font-size:30px;
+}    
+.paraOne{
+    color:yellow;
+    margin-top:5%;
+    text-align: 50%;
+    font-size: 40px;
+    clear: both;
+}
+.mousePic1{
+    float:left;
+    margin-top: -30%;
+    
+}
+.paraTwo{
+    color: yellow;
+    font-size: 40px;
+    margin-bottom:20%;
+    text-align:right;
+    clear: both;
+    padding-right: 20px;
+  
+}
+.picTwo{
+    margin-top:-30.2%;
+    margin-left: 10px;
+    opacity: .5;
+}
+.paraThree{
+    text-align: right;
+    color: rgb(241, 8, 8);
+    font-size: 50px;
+    padding-right: 50px;
+    font-style: oblique;
+}
+
+
+
+
+
+body {background-image: url(jail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
